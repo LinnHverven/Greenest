@@ -8,7 +8,7 @@ public class Greenest {
         Växt meatloaf = new KöttätandeVäxter("Meatloaf", 0.7);
         Växt olof = new Palmer("Olof", 1.0);
 
-        Växt[] växter = {igge, laura, meatloaf, olof}; 
+        Växt[] växter = {igge, laura, meatloaf, olof}; //Polymorfism
 
         String växtNamn = JOptionPane.showInputDialog(null, "Vad heter den växt du vill behandla? ");
 
@@ -21,7 +21,3 @@ public class Greenest {
         }
     }
 }
-
-//Vidare måste du använda dig av någon form av polymorfism.
-// Skriv en kommentar i koden där dessa förekommer så att Sigrun lätt kan se att du
-//behärskar detta. Koden ska vara enkelt läsbar och prydligt skriven.
